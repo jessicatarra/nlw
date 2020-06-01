@@ -125,6 +125,18 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
 }
 
+
+@media (max-width: 400px) {
+    #page-home h1{
+        font-size: 45px;
+    }
+    
+    #page-home main p{
+        font-size: 20px;
+    }
+}
+
+
 @media (max-width: 900px) {
     #page-home {
         background-position: 100vh;
@@ -137,13 +149,23 @@ h1,h2,h3,h4,h5,h6{
     
     #page-home header a{
         position: absolute;
-        bottom: -73px;
         left: 50%;
+        bottom: -10%;
         transform: translateX(-50%);
-
     }
     #page-home main{
         align-items: center;
     }
 }
+
+@media (min-width: 900px) and (max-width:1150px) {
+    #page-home {
+        background-size: 62%;
+        background-position: 28rem;
+    }
+}
+
+
+
+
 
