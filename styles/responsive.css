@@ -12,9 +12,10 @@
     #page-home header a{
         position: absolute;
         left: 50%;
-        bottom: -10%;
+        top: 110px;
         transform: translateX(-50%);
     }
+    
     #page-home main{
         align-items: center;
     }
@@ -40,7 +41,7 @@
 
     #page-create-point{
         align-items: center;
-        ;
+        
     }
     
     #page-create-point header{
@@ -52,13 +53,17 @@
     #page-create-point header a{
         position: absolute;
         left: 50%;
-        top: 13%;
+        top: 100px;
         transform: translateX(-50%);
 
     }
 
-    #page-create-point form fieldset{
-        
+    #page-create-point form h2{
+        font-size: 30px;
+    }
+     
+    #page-create-point form fieldset legend h2{
+        font-size: 15px;
     }
 
 }

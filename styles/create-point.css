@@ -12,7 +12,7 @@
 }
 
 #page-create-point header a{
-    color: var(--title-color);
+    color: var(--tittle-color);
     font-weight: bold;
     display: flex; 
     align-items: center; 
