@@ -18,10 +18,12 @@
 </head>
 <body>
     <div id="page-create-point">
+       
         <header>
                 <img src="assets/logo.svg" alt="">
-                <a href="#">
-                   <span></span> Voltar para home</a>
+                <a href="/index.html">
+                   <span></span> Voltar para home
+                </a>
         </header>
         
         <form action="">
@@ -52,9 +54,9 @@
                         <label for="state">Estado</label>
                         <select name="uf">
                             <option value="">Seleccione o Estado
-
                             </option>
                         </select>
+                        <input type="hidden" name="state">
                     </div>
                     <div class="field">
                         <label for="city">Cidade</label>
@@ -82,5 +84,8 @@
 
         </form>
     </div>
+
+
+    <script src="/scripts/create-point.js"></script>
 </body>
 </html>
