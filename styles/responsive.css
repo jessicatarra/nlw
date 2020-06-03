@@ -19,15 +19,6 @@
     #page-home main{
         align-items: center;
     }
-
-    #page-search-results .cards {
-        grid-template-columns: 1fr;
-    }
-
-    #page-search-results .cards img{
-        height: 250px;
-    }
-
     
 }
 
@@ -45,38 +36,65 @@
     }
 } 
 
+
+
 /* page-create-point Responsive */
 
-@media (max-width: 900px) {
+@media (max-width: 400px){
 
-    #page-create-point{
-        align-items: center;
+    #page-create-point .items-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #page-create-point form{
+        padding: 19px;
+    }
+
+    #page-create-point form fieldset .field, fieldset .field-group {
+        display: grid;
+    }
+
+    #page-create-point form button{
+        width: -webkit-fill-available;
+    }
+}
+
+@media (min-width: 400px) and(max-width: 900px) {
+
+    #page-create-point form h1{
+        text-align: center;
+    }
+
+    
+    #page-create-point form fieldset .field, fieldset .field-group {
+        display: grid;
         
     }
+
+    #page-create-point .items-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #page-create-point form button{
+        width: -webkit-fill-available;
+    }
     
-    #page-create-point header{
-        display: block;
-        text-align: center;
-       
-    }
 
-    #page-create-point header a{
-        position: absolute;
-        left: 50%;
-        top: 100px;
-        transform: translateX(-50%);
+}
 
-    }
 
-    #page-create-point form h2{
-        font-size: 30px;
-    }
-     
-    #page-create-point form fieldset legend h2{
-        font-size: 15px;
-    }
+/* Page-search-results */
 
+@media (max-width: 900px){
     
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-results .cards img{
+        height: 250px;
+    }
 
 }
 
