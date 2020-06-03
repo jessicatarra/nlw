@@ -1,5 +1,5 @@
 :root{
-    --tittle-color: #322153;
+    --title-color: #322153;
     --primary-color: #34cb79;
 }
 
@@ -23,7 +23,7 @@ a{
 }
 
 h1,h2,h3,h4,h5,h6{
-    color: var(--tittle-color);
+    color: var(--title-color);
     font-family: 'Ubuntu', sans-serif;
 }
 
