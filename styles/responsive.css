@@ -52,6 +52,7 @@
 
     #page-create-point form fieldset .field, fieldset .field-group {
         display: grid;
+        margin-left: 0;
     }
 
     #page-create-point form button{
@@ -68,6 +69,7 @@
     
     #page-create-point form fieldset .field, fieldset .field-group {
         display: grid;
+        margin-left: 0;
         
     }
 
